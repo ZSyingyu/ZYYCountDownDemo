@@ -15,6 +15,7 @@
 		107514761D9D0EAC007AEC38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107514741D9D0EAC007AEC38 /* LaunchScreen.storyboard */; };
 		107514811D9D0EAC007AEC38 /* ZYYCountDownDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107514801D9D0EAC007AEC38 /* ZYYCountDownDemoTests.m */; };
 		1075148C1D9D0EAC007AEC38 /* ZYYCountDownDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075148B1D9D0EAC007AEC38 /* ZYYCountDownDemoUITests.m */; };
+		1075149C1D9D0F5D007AEC38 /* ZyyCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075149B1D9D0F5D007AEC38 /* ZyyCountDownViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		107514871D9D0EAC007AEC38 /* ZYYCountDownDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYYCountDownDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1075148B1D9D0EAC007AEC38 /* ZYYCountDownDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYYCountDownDemoUITests.m; sourceTree = "<group>"; };
 		1075148D1D9D0EAC007AEC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107514991D9D0F0A007AEC38 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		1075149A1D9D0F5D007AEC38 /* ZyyCountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZyyCountDownViewController.h; sourceTree = "<group>"; };
+		1075149B1D9D0F5D007AEC38 /* ZyyCountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZyyCountDownViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +109,13 @@
 				1075146A1D9D0EAC007AEC38 /* AppDelegate.m */,
 				1075146C1D9D0EAC007AEC38 /* ViewController.h */,
 				1075146D1D9D0EAC007AEC38 /* ViewController.m */,
+				1075149A1D9D0F5D007AEC38 /* ZyyCountDownViewController.h */,
+				1075149B1D9D0F5D007AEC38 /* ZyyCountDownViewController.m */,
 				1075146F1D9D0EAC007AEC38 /* Main.storyboard */,
 				107514721D9D0EAC007AEC38 /* Assets.xcassets */,
 				107514741D9D0EAC007AEC38 /* LaunchScreen.storyboard */,
 				107514771D9D0EAC007AEC38 /* Info.plist */,
+				107514991D9D0F0A007AEC38 /* Common.h */,
 				107514661D9D0EAC007AEC38 /* Supporting Files */,
 			);
 			path = ZYYCountDownDemo;
@@ -279,6 +286,7 @@
 				1075146E1D9D0EAC007AEC38 /* ViewController.m in Sources */,
 				1075146B1D9D0EAC007AEC38 /* AppDelegate.m in Sources */,
 				107514681D9D0EAC007AEC38 /* main.m in Sources */,
+				1075149C1D9D0F5D007AEC38 /* ZyyCountDownViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
